@@ -17,7 +17,12 @@ After installation you need to run the application and clone IranGolzar to your 
 2.install composer
 you can download it from : https://getcomposer.org/download/
 
-3.in your terminal go to IranGolzar path and use this command :
+3.now you should import IranGolzar DataBase to your phpMyAdmin DBMS. on your local go to http://localhost/phpmyadmin/ and create a new database and name it "irangolzar". now import irangolzar/SQL/irangolzar (1).sql to it.
+
+notice : after import fort refresh the migration and tables you can go to IranGolzar path and use this command :
+php artisan migrate:refresh --seed
+
+4.in your terminal go to IranGolzar path and use this command :
 php artisan serve
 
 Congratulations.

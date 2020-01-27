@@ -38,21 +38,25 @@
                 <img src="/images/1.jpg" width="100%">
             </div>
         </div>
-        <div class="row border-bottom">
+        <div class="row border-bottom pb-2">
             <div class="col-12" style="font-weight: bold;font-size: 24px;">
                 {{$ad->title}}
             </div>
         </div>
-        <div class="row border-bottom">
+        <div class="row border-bottom pt-2 pb-2">
             <div class="col-12">
-                قیمت :
+                <span class="text-danger" style="font-weight: bold;">
+                    قیمت :
+                </span>
                 {{$ad->price}}
                 تومان
             </div>
         </div>
-        <div class="row ">
+        <div class="row mt-2">
             <div class="col-12">
-                {{$ad->description}}
+                <p class="text-justify">
+                    {{$ad->description}}
+                </p>
             </div>
         </div>
     </div>

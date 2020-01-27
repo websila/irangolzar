@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Ad;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class AdController extends Controller
@@ -14,8 +15,11 @@ class AdController extends Controller
      */
     public function index()
     {
-        $ads=Ad::all();
-        return $ads;
+        $ads=Ad::all()->map(function ($item){
+            $item->date=Carbon::createFromDate($item->created_at)->format('H:i');
+            return $item;
+        });
+        return view('index')->with(compact('ads'));
     }
 
     /**

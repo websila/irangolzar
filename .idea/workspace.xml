@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec54be66-4926-48ab-bf93-e9b810ef7e5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/irangolzar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/irangolzar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_24_111742_create_ads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_24_111742_create_ads_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_27_141434_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_27_141434_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,17 +124,21 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WnBeTJtXbJxHJ6p8aUFqLDoEnJ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="D:/work/irangolzar.ir/1_HTML" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -143,15 +149,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\irangolzar.ir\1_HTML" />
+      <recent name="D:\wamp64\www\irangolzar\public" />
+      <recent name="D:\wamp64\www\irangolzar\1_HTML\images" />
+      <recent name="D:\wamp64\www\irangolzar\1_HTML\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\irangolzar\1_HTML\fonts" />
       <recent name="D:\wamp64\www\irangolzar\1_HTML\css" />
       <recent name="D:\wamp64\www\irangolzar\1_HTML\js" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\irangolzar\public" />
-      <recent name="D:\wamp64\www\irangolzar\1_HTML\images" />
-      <recent name="D:\wamp64\www\irangolzar\1_HTML\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,12 +192,15 @@
       <workItem from="1579775579187" duration="1643000" />
       <workItem from="1579795359786" duration="7558000" />
       <workItem from="1579864478659" duration="9885000" />
-      <workItem from="1580133880348" duration="123000" />
+      <workItem from="1580133880348" duration="4764000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579875179904">

@@ -52,24 +52,25 @@
     </div>
     <div class="container">
         <div class="row productList">
+            @foreach($ads as $ad)
             <div class="col-12 adCont mt-2">
                 <div class="row position-relative">
                     <div class="shareTime">
                         <i class="far fa-clock"></i>
-                        1 ساعت پیش
+                        {{$ad->date}}
                     </div>
                     <div class="col-4 adRight">
-                        <img src="images/5.jpg" alt="">
+                        <img src="{{$ad->thumbnail}}" alt="">
                     </div>
                     <div class="col-8 pl-0 adLeft position-relative">
                         <div class="row adTitle">
                             <div class="col-12">
-                                گل رز هلندی
+                                {{$ad->title}}
                             </div>
                         </div>
                         <div class="row adPrice mt-1">
                             <div class="col-12">
-                                22000
+                                {{$ad->price}}
                                 تومان
                             </div>
                         </div>
@@ -81,151 +82,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 adCont mt-2">
-                <div class="row position-relative">
-                    <div class="shareTime">
-                        <i class="far fa-clock"></i>
-                        2 ساعت پیش
-                    </div>
-                    <div class="col-4 adRight">
-                        <img src="images/6.jpg" alt="">
-                    </div>
-                    <div class="col-8 pl-0 adLeft position-relative">
-                        <div class="row adTitle">
-                            <div class="col-12">
-                                گل زنبق
-                            </div>
-                        </div>
-                        <div class="row adPrice mt-1">
-                            <div class="col-12">
-                                22000
-                                تومان
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 adCont mt-2">
-                <div class="row position-relative">
-                    <div class="shareTime">
-                        <i class="far fa-clock"></i>
-                        45 دقیقه پیش
-                    </div>
-                    <div class="col-4 adRight">
-                        <img src="images/3.jpg" alt="">
-                    </div>
-                    <div class="col-8 pl-0 adLeft position-relative">
-                        <div class="row adTitle">
-                            <div class="col-12">
-                                گل لاله
-                            </div>
-                        </div>
-                        <div class="row adPrice mt-1">
-                            <div class="col-12">
-                                10500
-                                تومان
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 adCont mt-2">
-                <div class="row position-relative">
-                    <div class="shareTime">
-                        <i class="far fa-clock"></i>
-                        1 ساعت پیش
-                    </div>
-                    <div class="col-4 adRight">
-                        <img src="images/5.jpg" alt="">
-                    </div>
-                    <div class="col-8 pl-0 adLeft position-relative">
-                        <div class="row adTitle">
-                            <div class="col-12">
-                                گل رز هلندی
-                            </div>
-                        </div>
-                        <div class="row adPrice mt-1">
-                            <div class="col-12">
-                                22000
-                                تومان
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 adCont mt-2">
-                <div class="row position-relative">
-                    <div class="shareTime">
-                        <i class="far fa-clock"></i>
-                        2 ساعت پیش
-                    </div>
-                    <div class="col-4 adRight">
-                        <img src="images/6.jpg" alt="">
-                    </div>
-                    <div class="col-8 pl-0 adLeft position-relative">
-                        <div class="row adTitle">
-                            <div class="col-12">
-                                گل زنبق
-                            </div>
-                        </div>
-                        <div class="row adPrice mt-1">
-                            <div class="col-12">
-                                22000
-                                تومان
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 adCont mt-2">
-                <div class="row position-relative">
-                    <div class="shareTime">
-                        <i class="far fa-clock"></i>
-                        45 دقیقه پیش
-                    </div>
-                    <div class="col-4 adRight">
-                        <img src="images/3.jpg" alt="">
-                    </div>
-                    <div class="col-8 pl-0 adLeft position-relative">
-                        <div class="row adTitle">
-                            <div class="col-12">
-                                گل لاله
-                            </div>
-                        </div>
-                        <div class="row adPrice mt-1">
-                            <div class="col-12">
-                                10500
-                                تومان
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </body>

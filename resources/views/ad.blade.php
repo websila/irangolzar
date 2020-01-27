@@ -27,8 +27,8 @@
         </div>
         <div class="row pt-2 pb-2">
             <div class="col-12 text-center" style="font-size:12px;">
-                 دسته بندی :
-                دسته بندی شماره یک
+                 <span style="font-weight: bold;">دسته بندی : </span>
+                 {{$theCat->title}}
             </div>
         </div>
     </div>

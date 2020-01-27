@@ -63,7 +63,8 @@ class AdController extends Controller
      */
     public function show(Ad $ad)
     {
-        return view('ad')->with(compact('ad'));
+        $theCat=Category::where('id',$ad->parent_id)->first();
+        return view('ad')->with(compact('ad','theCat'));
     }
 
     /**

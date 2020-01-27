@@ -98,3 +98,17 @@ a{
     color: #000 !important;
     text-decoration: none !important;
 }
+.mySearchBtn{
+    position: absolute;
+    background: #FFF;
+    border: none;
+    padding: 0px 10px;
+    border-right: 1px solid 999;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    outline: none;
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+
+}

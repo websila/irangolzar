@@ -51,7 +51,7 @@ class AdController extends Controller
      */
     public function show(Ad $ad)
     {
-        return $ad;
+        return view('ad')->with(compact('ad'));
     }
 
     /**

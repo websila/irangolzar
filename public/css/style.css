@@ -94,3 +94,7 @@
     top: 5px;
 }
 
+a{
+    color: #000 !important;
+    text-decoration: none !important;
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ایران گلزار</title>
+    <title>ایرازار</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
     <!-- Latest compiled and minified CSS -->

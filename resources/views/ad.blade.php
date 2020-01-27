@@ -21,7 +21,7 @@
     <div class="container-fluid bg-light">
         <div class="row">
             <div class="col-12 p-0 position-relative">
-                <form>
+                <form action="/search">
                     <input name="s" class="searchTop" type="text" placeholder="جستجو">
                     <i class="fas fa-search"></i>
                     <input class="mySearchBtn" type="submit" value="بگرد..." >

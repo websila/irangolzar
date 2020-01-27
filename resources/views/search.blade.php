@@ -17,7 +17,7 @@
     <div class="container-fluid bg-light">
         <div class="row">
             <div class="col-12 p-0 position-relative">
-                <form>
+                <form action="/search">
                     <input name="s" class="searchTop" type="text" placeholder="جستجو">
                     <i class="fas fa-search"></i>
                     <input class="mySearchBtn" type="submit" value="بگرد..." >
@@ -26,7 +26,7 @@
         </div>
         <div class="row border-top border-bottom pt-2 pb-2">
             <div class="col-12">
-                نتیجه جستجو برای کلمه : 
+                نتیجه جستجو برای کلمه :
                 <span style="font-weight: bold;">گل رز</span>
             </div>
         </div>

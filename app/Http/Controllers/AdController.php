@@ -15,6 +15,22 @@ class AdController extends Controller
      * @return \Illuminate\Http\Response
      */
 
+    public function search(Request $request)
+    {
+        if (isset($request->s)){
+            $ads=Ad::where('title','LIKE',"%{$request->s}%")->get();
+            $cats=Category::all();
+            $ads=$ads->map(function ($item){
+                $item->date=date_format($item->created_at,'H:i');
+                return $item;
+            });
+            return view('index')->with(compact('ads','cats'));
+        }
+        else{
+            return $this->index();
+        }
+    }
+
     public function chooseCat(Category $cat){
         $theCat=$cat;
         $cats=Category::all();

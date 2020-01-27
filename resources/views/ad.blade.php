@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>عنوان آگهی</title>
+    <title>
+        {{$ad->title}}
+        -
+        ایران گلزار
+    </title>
     <link rel="stylesheet" href="/css/style.css">
     <script src="/js/script.js"></script>
     <!-- Latest compiled and minified CSS -->
@@ -36,17 +40,19 @@
         </div>
         <div class="row border-bottom">
             <div class="col-12" style="font-weight: bold;font-size: 24px;">
-                title
+                {{$ad->title}}
             </div>
         </div>
         <div class="row border-bottom">
             <div class="col-12">
-                price
+                قیمت :
+                {{$ad->price}}
+                تومان
             </div>
         </div>
         <div class="row ">
             <div class="col-12">
-                desc
+                {{$ad->description}}
             </div>
         </div>
     </div>

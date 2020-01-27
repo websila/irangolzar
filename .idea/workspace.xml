@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec54be66-4926-48ab-bf93-e9b810ef7e5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SQL/irangolzar (1).sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/AdsTableSeeder1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/#db/irangolzar.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/ad.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/ad.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdsTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +140,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/#db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SQL" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -151,11 +157,11 @@
       <recent name="D:\wamp64\www\irangolzar\1_HTML\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\irangolzar\SQL" />
       <recent name="D:\wamp64\www\irangolzar\#db" />
       <recent name="D:\work\irangolzar.ir\1_HTML" />
       <recent name="D:\wamp64\www\irangolzar\public" />
       <recent name="D:\wamp64\www\irangolzar\1_HTML\images" />
-      <recent name="D:\wamp64\www\irangolzar\1_HTML\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -204,6 +210,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1579875179904" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580159216731">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580159216731" />
     <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1579876429344">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

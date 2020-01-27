@@ -35,7 +35,7 @@
     <div class="container">
         <div class="row ">
             <div class="col-12 mt-1 mb-3">
-                <img src="/images/1.jpg" width="100%">
+                <img src="{{$ad->thumbnail}}" width="100%">
             </div>
         </div>
         <div class="row border-bottom pb-2">

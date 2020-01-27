@@ -6,7 +6,7 @@ This poject created by PHP and Laravel Framework based on MVC Architecture. At t
 
 ## How to run IranGolzar Project on local
 
-1. you need an application that consisting of the Apache web server, OpenSSL for SSL support, MySQL database and PHP programming language.
+1.you need an application that consisting of the Apache web server, OpenSSL for SSL support, MySQL database and PHP programming language.
 you can use :
 - WampServer or XAMP for windows
 - LAMP for linux
@@ -14,7 +14,7 @@ you can use :
 
 After installation you need to run the application and clone IranGolzar to your app root directory.
 
-2. install composer
+2.install composer
 you can download it from : https://getcomposer.org/download/
 
 3.in your terminal go to IranGolzar path and use this command :

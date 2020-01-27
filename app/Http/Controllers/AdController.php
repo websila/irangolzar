@@ -16,7 +16,7 @@ class AdController extends Controller
     public function index()
     {
         $ads=Ad::all()->map(function ($item){
-            $item->date=Carbon::createFromDate($item->created_at)->format('H:i');
+            $item->date=date_format($item->created_at,'H:i');
             return $item;
         });
         return view('index')->with(compact('ads'));

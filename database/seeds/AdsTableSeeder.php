@@ -26,7 +26,8 @@ class AdsTableSeeder extends Seeder
                     'http://127.0.0.1:8000/images/5.jpg',
                     'http://127.0.0.1:8000/images/6.jpg',
                     'http://127.0.0.1:8000/images/7.jpg',
-                ])
+                ]),
+                'created_at' => $faker->dateTimeBetween('-30day','now')
             ]);
         }
     }

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec54be66-4926-48ab-bf93-e9b810ef7e5b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/seeds/CategoryTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_27_141434_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_27_141434_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdsTableSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,7 @@
       <workItem from="1579775579187" duration="1643000" />
       <workItem from="1579795359786" duration="7558000" />
       <workItem from="1579864478659" duration="9885000" />
-      <workItem from="1580133880348" duration="4764000" />
+      <workItem from="1580133880348" duration="5256000" />
     </task>
     <servers />
   </component>

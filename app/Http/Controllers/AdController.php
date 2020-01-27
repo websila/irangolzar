@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Ad;
+use App\Category;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
@@ -15,11 +16,12 @@ class AdController extends Controller
      */
     public function index()
     {
+        $cats=Category::all();
         $ads=Ad::all()->map(function ($item){
             $item->date=date_format($item->created_at,'H:i');
             return $item;
         });
-        return view('index')->with(compact('ads'));
+        return view('index')->with(compact('ads','cats'));
     }
 
     /**

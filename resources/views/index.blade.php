@@ -23,30 +23,16 @@
         </div>
         <div class="row">
             <div class="col-12 p-0 pt-2 pb-1 catList">
-                <div class="catBox position-relative p-0">
-                    <img src="images/1.jpg" alt="">
-                    <div class="bottomDesc">
-                        گل شاخه بریده
+                @foreach($cats as $cat)
+                <a href="/cat/{{$cat->id}}">
+                    <div class="catBox position-relative p-0">
+                        <img src="{{$cat->thumbnail}}" alt="">
+                        <div class="bottomDesc">
+                            {{$cat->title}}
+                        </div>
                     </div>
-                </div>
-                <div class="catBox position-relative">
-                    <img src="images/2.jpg" alt="">
-                    <div class="bottomDesc">
-                        گل گلدانی
-                    </div>
-                </div>
-                <div class="catBox position-relative">
-                    <img src="images/3.jpg" alt="">
-                    <div class="bottomDesc">
-                        ابزار کشاورزی
-                    </div>
-                </div>
-                <div class="catBox position-relative">
-                    <img src="images/4.jpg" alt="">
-                    <div class="bottomDesc">
-                        گل شاخه بریده
-                    </div>
-                </div>
+                </a>
+                @endforeach
             </div>
         </div>
     </div>

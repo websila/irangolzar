@@ -19,6 +19,7 @@ class CreateAdsTable extends Migration
             $table->text('description');
             $table->integer('price');
             $table->text('thumbnail');
+            $table->integer('parent_id');
             $table->timestamps();
         });
     }

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'bbcNasim';
+    src: url('../fonts/bbcNasim.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bbcNasim.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/bbcNasim.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/bbcNasim.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+*{
+    margin: 0 auto;
+    padding:0;
+    font-family: bbcNasim;
+}
+.searchTop{
+    outline: none;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: 0px;
+    background: #eee;
+    padding-right: 40px;
+}
+.searchTop+i{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 20px;
+}
+.catBox{
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background: red;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-right: 7px;
+}
+.catBox:first-child{
+    margin-right: 10px;
+}
+.catBox img{
+    width: 100%;
+    height: 100%;
+}
+.bottomDesc{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    font-size: 11px;
+}
+.catList{
+    overflow-x: scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+.adCont{
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.adRight{
+    height: 100px;
+}
+.adLeft{
+    height: 100px;
+}
+.adRight img{
+    height: 92%;
+    width: 100%;
+}
+.adTitle{
+    font-weight: bold;
+}
+.adPrice{
+    font-size: 12px;
+}
+.shareTime{
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    font-size: 10px;
+    line-height: 20px;
+    height: 20px;
+    color: #aaa;
+}
+.shareTime i{
+    display: inline-block;
+    position: absolute;
+    right: -15px;
+    top: 5px;
+}
+

@@ -53,37 +53,38 @@
     <div class="container">
         <div class="row productList">
             @foreach($ads as $ad)
-                <a href="/ad/{{$ad->id}}">
                     <div class="col-12 adCont mt-2">
-                        <div class="row position-relative">
-                            <div class="shareTime">
-                                <i class="far fa-clock"></i>
-                                {{$ad->date}}
-                            </div>
-                            <div class="col-4 adRight">
-                                <img src="{{$ad->thumbnail}}" alt="">
-                            </div>
-                            <div class="col-8 pl-0 adLeft position-relative">
-                                <div class="row adTitle">
-                                    <div class="col-12">
-                                        {{$ad->title}}
-                                    </div>
+                        <a href="/ad/{{$ad->id}}">
+                            <div class="row position-relative">
+                                <div class="shareTime">
+                                    <i class="far fa-clock"></i>
+                                    {{$ad->date}}
                                 </div>
-                                <div class="row adPrice mt-1">
-                                    <div class="col-12">
-                                        {{$ad->price}}
-                                        تومان
-                                    </div>
+                                <div class="col-4 adRight">
+                                    <img src="{{$ad->thumbnail}}" alt="">
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
+                                <div class="col-8 pl-0 adLeft position-relative">
+                                    <div class="row adTitle">
+                                        <div class="col-12">
+                                            {{$ad->title}}
+                                        </div>
+                                    </div>
+                                    <div class="row adPrice mt-1">
+                                        <div class="col-12">
+                                            {{$ad->price}}
+                                            تومان
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
 
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+
             @endforeach
         </div>
     </div>

@@ -14,6 +14,16 @@ class AdController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+    public function chooseCat(Category $cat){
+        $theCat=$cat;
+        $cats=Category::all();
+        $ads=Ad::where('parent_id',$theCat->id)->get()->map(function ($item){
+            $item->date=date_format($item->created_at,'H:i');
+            return $item;
+        });
+        return view('index')->with(compact('ads','cats','theCat'));
+    }
     public function index()
     {
         $cats=Category::all();

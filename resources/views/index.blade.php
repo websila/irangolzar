@@ -35,7 +35,16 @@
                 @endforeach
             </div>
         </div>
+        @if(isset($theCat))
+            <div class="row border-top border-bottom pt-2 pb-2">
+                <div class="col-12">
+                    دسته بندی : 
+                    {{$theCat->title}}
+                </div>
+            </div>
+        @endif
     </div>
+
     <div class="container">
         <div class="row productList">
             @foreach($ads as $ad)

@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::get('/','AdController@index');
 Route::get('/ad/{ad}','AdController@show');
+Route::get('/cat/{cat}','AdController@chooseCat');
